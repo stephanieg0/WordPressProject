@@ -1,0 +1,62 @@
+body {
+	background-color: #161616;
+	margin: 40px 40px;
+}
+
+fieldset {
+	border: 0px;
+}
+
+a {
+	color: #EEEEEE;
+	text-decoration: none;
+	margin-left: 10px;
+
+}
+
+.nav-bar {
+	background-color: #161616;
+	text-align: center;
+}
+
+a:hover {
+	color: #B99128;
+}
+
+.headerBackground {
+	background-color: #202020;
+	margin-top: 0;
+	margin-bottom: 1000px;
+	margin-left: 0;
+	margin-right: 0;
+	border: 1px solid white;
+}
+
+.textStyle {
+	color: white;
+	font-family: verdana;
+
+}
+
+.contactPhoto {
+	
+	float: left;
+
+}
+
+.aboutMe {
+	
+	text-align: justify;
+	padding-left: 400px;
+	padding-right: 100px;
+	padding-top: 90px;
+	padding-bottom: 50px;
+
+}
+
+.inputInfo {
+	margin-top: 20px;
+	text-align: right;
+	padding-right: 90px;
+	 
+}
