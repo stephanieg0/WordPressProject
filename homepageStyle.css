@@ -1,0 +1,49 @@
+body {
+	background-color: #202020; 
+	font-family: Verdana;
+	color:  #EEEEEE;
+}
+
+.nav-bar {
+	background-color: #202020;
+	text-align: center;
+}
+
+.body-container {
+	background-color: #161616;
+	margin: 40px 40px;
+}
+
+fieldset {
+	border: 1px solid #EEEEEE;
+
+}
+
+a {
+	color: #EEEEEE;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+a:hover {
+	color: #B99128;
+}
+
+.centering {
+	text-align: center;
+	padding: none;
+}
+
+.image-top {
+	width: 1000px;
+	height: 400px;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+}
+
+.sidebar {
+	
+}
