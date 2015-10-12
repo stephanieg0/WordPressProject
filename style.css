@@ -8,40 +8,69 @@ body {
 	background-color: #171717;
 	padding-bottom: 30px;
 	padding-top: 10px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#invisibleHeader {
+	width: 100%;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	visibility: hidden;
 }
 
 .navChoices {
-	margin-right: 30px;
 	margin-left: 30px;
 	margin-bottom: 300px;
 	text-decoration: none;
 	color: #bcbaba;
 }
 
+.home {
+	margin-bottom: 300px;
+	margin-left: 9px;
+	text-decoration: none;
+	color: #bcbaba;
+}
+
 h1 {
+	font-weight: 200;
 	color: #EEEEEE;
+}
+
+#invisibleContent {
+	width: 100%;
+	height: 100%;
+	padding-top: 40px;
+	visibility: hidden;
 }
 
 .main {
 	background-color: #202020;
 	width: 100%;
-	height: 300px;
-	padding-top: 25px;
+	height: 100%;
+	padding-top: 40px;
+	position: absolute;
+	top: 141px;
+	left: 0;
 }
 
 #galleryImageOne {
 	background-color: #171717;
 	width: 30%;
-	height: 200px;
 	margin-left: 2%;
 	float: left;
-	background-image: url(http://www.tuacahntech.com/uploads/6/1/7/9/6179841/6166205_orig.jpg);
+}
+
+.galleryIcon {
+	max-width: 100%;
 }
 
 .imageTwo {
 	background-color: #171717;
 	width: 30%;
-	height: 200px;
 	margin-left: 3%;
 	float: left;
 }
@@ -49,7 +78,13 @@ h1 {
 .imageThree {
 	background-color: #171717;
 	width: 30%;
-	height: 200px;
 	margin-left: 3%;
 	float: left;
+}
+
+.gallery-title {
+	text-align: center;
+	color: #EEEEEE;
+	margin-top: 10px;
+	margin-bottom: 12px;
 }
